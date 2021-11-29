@@ -6,7 +6,10 @@ namespace Open_Lab_04._09
     {
         public string[] RemoveDups(string[] strings)
         {
-            throw new NotImplementedException();
+          
+ 
+		string[]  a = strings.Distinct().ToArray();
+            return a;
         }
     }
 }
